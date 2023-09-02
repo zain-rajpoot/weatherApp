@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: url("https://img.freepik.com/premium-photo/clouds-sky_5219-6732.jpg")
+    no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  font-family: cursive;
+}
+nav {
+  background: hsla(200, 20%, 100%, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav img {
+  padding: 5px;
+}
+.all_data {
+  width: 50%;
+  margin: 30px auto;
+  padding: 20px;
+  display: flex;
+  background: transparent;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+input {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 4px;
+  margin: 10px;
+  border: 2px solid black;
+  width: 400px;
+  font-family: cursive;
+}
+main div {
+  color: white;
+}
+
+.W_data {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 600px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 8px;
+  color: white;
+}
+.ferh_temp {
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+}
+.W_data div h2 {
+  background-color: transparent;
+  color: white;
+  font-size: 30px;
+}
+.W_data div img {
+  width: 100px;
+}
+.triangle-up {
+  position: absolute;
+  top: -50px;
+  left: 45%;
+  background-color: transparent;
+  color: white;
+  width: 100px;
+  height: 100px;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid rgba(0, 0, 0, 0.3);
+}
+
+#loading {
+  width: 300px;
+  margin-top: 50px;
+}
+.Todays_date {
+  background-color: transparent;
+  color: white;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  text-decoration: underline;
+  width: 150px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.whter_info {
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 850px) {
+  .all_data {
+    width: 80%;
+  }
+  input {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  input {
+    width: 300px;
+  }
+}
